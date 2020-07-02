@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="resume.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&family=Work+Sans:ital,wght@1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><svg
+          width="1em"
+          height="1em"
+          viewBox="0 0 16 16"
+          class="bi bi-house-fill"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+          />
+        </svg>
+        Home</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#Info">INFO</a>
+              <a class="dropdown-item" href="#abc">Contact Me</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Scenery.jpg" class="d-block w-100" alt="Scenery" />
+        </div>
+        <div class="carousel-item">
+          <img src="Flower.jpg" class="d-block w-100" alt="Flower" />
+        </div>
+        <div class="carousel-item">
+          <img src="moon.jpg" class="d-block w-100" alt="Moon" />
+        </div>
+      </div>
+
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Hello Everyone:)</h1>
+
+        <p class="description">
+          <!--I did this in a class so that it would be easy to define its font, font-color etc.-->
+          My name is Jaskaran Singh. Born and brought up in Punjab(India), I
+          came to Canada last year as an International Student. I always had
+          interest in computers, so chose to have career in this field. With
+          around an experience of
+          <strong> year and a half in web development</strong> , I have
+          developed many skills and still working to improve them. With every
+          passing day, I am building a strong hand in web development.
+        </p>
+
+        <a href="Link.html" class="btn btn-info active" id="Info">
+          Click here!
+        </a>
+        to see my EDUCATION, EXPERIENCE and SKILLS
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://cdn1.vectorstock.com/i/1000x1000/24/20/abstract-background-dynamic-light-lines-website-vector-27212420.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">Here is a little preview of my work.</p>
+        </div>
+      </div>
+      <p>
+        <a
+          class="btn btn-primary"
+          id="abc"
+          data-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Click to Contact
+        </a>
+      </p>
+      <div
+        class="collapse"
+        id="collapseExample"
+        style="border: 10px; padding: 10px;"
+      >
+        <div class="card card-body">
+          <ul>
+            <li>Email - jsajbs@gmail.com</li>
+            <li>Twitter - jhjzhbjx</li>
+            <li>Instagram - jsjjsbjbx</li>
+            <li>Facebook - bsnxjndsk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <form class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="contact">
+            Want me to contact you. Fill out the form below:
+          </h1>
+        </div>
+
+        <div class="form-group col-12 col-md-6">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Your E-mail will never be shared with anyone else</small
+          >
+        </div>
+        <div class="form-group col-12 col-md-6">
+          <label for="exampleInputPassword1">Name</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+      </div>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

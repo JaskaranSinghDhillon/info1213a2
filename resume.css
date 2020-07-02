@@ -1,0 +1,47 @@
+/*CSS,, will help to make a good looking file*/
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?size=626&ext=jpg);
+  background-size: cover;
+}
+.navbar-light {
+  background-color: #00203fff;
+}
+.navbar-brand {
+  color: #adefd1ff;
+}
+#carouselExampleIndicators {
+  width: 75%;
+  height: 30%;
+  padding: 30px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.carousel-item {
+  height: 500px;
+}
+.description {
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+}
+.collapse {
+  font-size: medium;
+
+  border: 20px;
+}
+.card {
+  width: 18rem;
+  margin: auto;
+  border: 5px;
+  padding: 10px;
+}
+.contact {
+  font-size: x-large;
+  text-align: left;
+  background-color: #228a88;
+  color: whitesmoke;
+  padding: 5px;
+}

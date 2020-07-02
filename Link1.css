@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://i.ytimg.com/vi/7dkrwPrmH-Y/maxresdefault.jpg);
+  background-size: cover;
+  font-size: larger;
+}
+.jumbotron {
+  border: 10px;
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table tr {
+  border: 1px solid #000;
+}
+table th {
+  border: 1px solid #000;
+}
+table td {
+  border: 1px solid #000;
+}
+
+h2 {
+  background-color: black;
+  color: whitesmoke;
+}
