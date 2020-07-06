@@ -38,10 +38,18 @@ h1 {
   border: 5px;
   padding: 10px;
 }
-.contact {
-  font-size: x-large;
-  text-align: left;
-  background-color: #228a88;
-  color: whitesmoke;
-  padding: 5px;
+#abc {
+  margin: 1rem;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+  padding: 10px;
+}
+#collapseExample {
+  width: 75%;
+  height: 75%;
+  margin: auto;
 }

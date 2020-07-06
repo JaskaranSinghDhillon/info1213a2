@@ -25,3 +25,10 @@ h2 {
   background-color: black;
   color: whitesmoke;
 }
+.contact {
+  font-size: x-large;
+  text-align: left;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
